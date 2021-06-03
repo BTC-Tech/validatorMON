@@ -1,0 +1,85 @@
+.rcorners {
+  border-radius: 15px;
+  border: 2px solid #CCC;
+  padding: 5px;
+	position:relative;
+}
+.h3 {
+margin-bottom:5px;
+font-size:20px;
+font-weight: bold;
+color: #1B295E;
+}
+.wtitle {
+border-left:#09C 5px solid;
+  padding: 5px;
+}
+.rightCircle{ position:absolute; padding-left:5px; padding-right:5px; padding-top:5px; padding-bottom:5px; border-radius:15%;  background: #CCC; right:-20px; bottom:-30px;}
+.imgpad{
+color: #00AEE9;
+padding-bottom:5px;
+padding-top:5px;
+}
+.text-box {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+h1 {
+	font-size: 30px;
+	font-weight: 900;
+	background-color: #00AEE9;
+	color: #fff;
+	display: block;
+
+}
+
+h1:nth-child(2) {
+	position: absolute;
+	background-color: #fff;
+	color: #00AEE9;
+	clip-path: inset(-1% -1% 50% -1%); // Added the negative values to prevent icky "bleed" in Chrome
+}
+.widgettitle{
+font-size: 12px;
+text-transform:uppercase;
+border-left: 3px solid #00AEE9;
+border-right: 3px solid #00AEE9;
+padding-left: 10px;
+padding-right: 10px;
+font-weight:700;
+
+}
+.stat_prof {
+background-color:#FFF;
+border: 1px solid #CCC;
+border-radius: 15px;
+padding-left:10px;
+padding-top:10px;
+padding-right:10px;
+padding-bottom:22px;
+}
+#delegations {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#delegations td, #delegations th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#delegations tr:nth-child(even){background-color: #f2f2f2;}
+
+#delegations tr:hover {background-color: #ddd;}
+
+#delegations th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #00AEE9;
+  color: white;
+}
