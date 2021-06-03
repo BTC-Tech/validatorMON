@@ -1,3 +1,6 @@
+jQuery(document).ready(function($) {
+    $('#table_id').DataTable();
+} );
 var widget = document.getElementById('vmon_widget');
 
 if (widget){

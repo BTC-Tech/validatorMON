@@ -61,25 +61,10 @@ padding-top:10px;
 padding-right:10px;
 padding-bottom:22px;
 }
-#delegations {
-  font-family: Arial, Helvetica, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-}
 
-#delegations td, #delegations th {
-  border: 1px solid #ddd;
-  padding: 8px;
-}
-
-#delegations tr:nth-child(even){background-color: #f2f2f2;}
-
-#delegations tr:hover {background-color: #ddd;}
-
-#delegations th {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  text-align: left;
-  background-color: #00AEE9;
-  color: white;
+@media all and (max-width: 600px)  {
+                    /* Change Resolutions Here */
+  .mobyfont {
+    font-size: 1.7vw;
+  }
 }
